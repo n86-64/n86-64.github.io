@@ -1,0 +1,40 @@
+---
+layout: about
+title: About
+permalink: /about/
+---
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-6">
+        {% for member in site.members %}
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="he-wrap tpl6">
+            <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="">
+                <div class="he-view">
+                    <div class="bg a0" data-animate="fadeIn">
+                        <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
+                        {% for entry in member.social %}
+                            <a href="{{ entry.url }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
+                        {% endfor %}
+                    </div><!-- he bg -->
+                </div><!-- he view -->
+            </div><!-- he wrap -->
+            <h4>{{ member.name }}</h4>
+            <h5 class="ctitle">{{ member.position }}</h5>
+            <p>{{ member.text }}</p>
+            <div class="hline"></div>
+        </div><! --/col-lg-3 -->
+        {% endfor %}
+            </br>
+        </div>
+        <div class="col-lg-6">
+            <h4>About Me</h4>
+            <p>I am currently a 2nd years student, living in Bristol and studying at the University of The West of England for a degree in Games Technology.</p>
+            <p>  I have a diverse range of intrests from programming to animation.
+  It should be no surprise that gaming is one of them and its one that I'm quite passionate about as games for the most part are really enjoyable, engaging and in some cases have led to some of my best moments.
+  This in turn coincides with my interest in computers which I have been developing from quite a young age. This resulted in my participating in a number of events and activities both outside and inside of school relating to computers. It was this in combination with my interest in games which lead me to follow the path that I'm currently taking.</p>
+            <p><br/><a href="{{ "/contact/" | prepend: site.baseurl }}" class="btn btn-theme">Contact Me</a></p>
+        </div>
+    </div><! --/row -->
+</div><! --/container -->
