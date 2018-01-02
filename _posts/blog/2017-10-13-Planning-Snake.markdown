@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Planning Snake"
-date:   2017-10-08 17:00:00
+date:   2017-10-13 17:00:00
 author: Nathan Butt
 categories:
 - Low Level Programming
