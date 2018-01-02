@@ -13,7 +13,7 @@ carousel:
 - cyberAcademy/img3.jpg
 - cyberAcademy/img4.png
 - cyberAcademy/img6.JPG
-tagged: Games, 2D
+tagged: Games, 2D, Unity engine
 client: PlayWest (UWE internal development studio)
 website: https://twitter.com/playwesthq?lang=en
 published: true
@@ -25,7 +25,6 @@ published: true
 
 <!--TODO Add various repositories and personal work as projects on the portfolio.-->
 
-## Summery:
 Cyber Academy is a simple 2D exploration game where the player has to complete a set of mini-games, with the primary goal being to score as many points as possible in one session. Upon completing the game if the player successfully achieved a top score this would then be presented on the title-screens leaderboard.
 
 The game is comprised of a single joystick which is used to move around the level and an action button which is used to interact with the NPCs in the game as well as the various mini games.
@@ -38,12 +37,12 @@ For the game jam me and me and my team decided to create a small scale competiti
 
 
 ## Role:
-I was responsible for developing the games quest system which was the core component used to track progress in the game, and developing a minigame based around creating secure passwords. In the minigame the player would be required to set some new passwords for some computers and would have to set these passwords based on a set of hints given by the game.
+I was responsible for developing the games quest system which was the core component used to track players progress, and developing a minigame based around creating secure passwords. In the minigame the player would be required to set some new passwords for some computers and would have to set these passwords based on a set of hints given by the game.
 
 
 <!-- Place this tag where you want the button to render. -->
 <p>
 <a class="github-button" href="https://github.com/DudleyHK/CyberGameCafe/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download DudleyHK/CyberGameCafe on GitHub">Download Now</a>
 
-<a class="github-button" href="https://github.com/DudleyHK/CyberGameCafe/" data-size="large" aria-label="Download DudleyHK/CyberGameCafe on GitHub">View it on GitHub</a>
+<a class="github-button" href="https://github.com/DudleyHK/CyberGameCafe/" data-size="large" aria-label="Download DudleyHK/CyberGameCafe on GitHub">View Source on GitHub</a>
 </p>
