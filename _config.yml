@@ -51,8 +51,7 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - University of the West of England,
-    - Frenchay Campus, Bristol, BS16 1QY,
+    - Bristol, BS16 1QY,
     - United Kingdom.
 email: Nathan2.Butt@live.uwe.ac.uk
 
@@ -64,11 +63,11 @@ email: Nathan2.Butt@live.uwe.ac.uk
 members:
   - name: Nathan Butt
     position: Games Tech Student
-    text: I am a keen and passionate games developer, whose love of programming extends to mentoring others to allow them to develop games for themselves.
+    text: 
     img: # TODO - Add sutable profile picture.
     social:
       - title: envelope #use for email address
         url: mailto:Nathan2.Butt@live.uwe.ac.uk
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Those who can do and those who can't teach games design."
+about: "A keen programmer with a desire to learn and innovate."
