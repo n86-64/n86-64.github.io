@@ -23,7 +23,7 @@ published: true
 ### Get it Here:
 
 <p>
-<a class="github-button" href="https://github.com/n86-64/ESDAssignment3-ManicTraffic/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download DudleyHK/CyberGameCafe on GitHub">Download Now</a>
+<a class="github-button" href="/solid-jekyll/assets/content/ManicTraffic.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download DudleyHK/CyberGameCafe on GitHub">Download Now</a>
 
 <a class="github-button" href="https://github.com/n86-64/ESDAssignment3-ManicTraffic/" data-size="large" aria-label="Download DudleyHK/CyberGameCafe on GitHub">View Source on GitHub</a>
 </p>
