@@ -63,8 +63,8 @@ email: Nathan2.Butt@live.uwe.ac.uk
 members:
   - name: Nathan Butt
     position: Games Tech Student
-    text: 
-    img: # TODO - Add sutable profile picture.
+    text:
+    img: profile.JPG 
     social:
       - title: envelope #use for email address
         url: mailto:Nathan2.Butt@live.uwe.ac.uk
