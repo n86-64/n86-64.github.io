@@ -9,6 +9,9 @@ categories:
 img: Overthrow_Logo.png
 thumb:
 carousel:
+- ai/img1.png
+- ai/img2.png
+- ai/img3.png
 # TODO - Add images from AI implimentations.
 tagged: AI, Low-level Systems, Pathfinding, Search
 client: University Project

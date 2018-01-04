@@ -6,9 +6,13 @@ author: Nathan Butt
 categories:
 - University Projects
 - Year 1
-img: Overthrow_Logo.png
+img: rh_thumb.jpg
 thumb:
 carousel:
+- manicTraffic/img1.png
+- manicTraffic/img2.png
+- manicTraffic/img3.png
+- manicTraffic/img4.png
 tagged: Games, 2D, Puzzler, Cocos2DX
 client: University Project
 website:
