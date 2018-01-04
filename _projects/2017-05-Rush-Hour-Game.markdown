@@ -9,10 +9,10 @@ categories:
 img: rh_thumb.jpg
 thumb:
 carousel:
-- manicTraffic/img1.png
-- manicTraffic/img2.png
-- manicTraffic/img3.png
-- manicTraffic/img4.png
+- manicTraffic/img1.PNG
+- manicTraffic/img2.PNG
+- manicTraffic/img3.PNG
+- manicTraffic/img4.PNG
 tagged: Games, 2D, Puzzler, Cocos2DX
 client: University Project
 website:
@@ -23,7 +23,7 @@ published: true
 ### Get it Here:
 
 <p>
-<a class="github-button" href="/solid-jekyll/assets/content/ManicTraffic.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download DudleyHK/CyberGameCafe on GitHub">Download Now</a>
+<a class="github-button" href="/solid-jekyll/assets/content/ManicTraffic.zip/" data-icon="octicon-cloud-download" data-size="large" aria-label="Download DudleyHK/CyberGameCafe on GitHub">Download Now</a>
 
 <a class="github-button" href="https://github.com/n86-64/ESDAssignment3-ManicTraffic/" data-size="large" aria-label="Download DudleyHK/CyberGameCafe on GitHub">View Source on GitHub</a>
 </p>

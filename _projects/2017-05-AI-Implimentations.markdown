@@ -6,13 +6,12 @@ author: Nathan Butt
 categories:
 - University Projects,
 - Year 1
-img: Overthrow_Logo.png
+img: path-thumb.png
 thumb:
 carousel:
-- ai/img1.png
-- ai/img2.png
-- ai/img3.png
-# TODO - Add images from AI implimentations.
+- ai/img1.PNG
+- ai/img2.PNG
+- ai/img3.PNG
 tagged: AI, Low-level Systems, Pathfinding, Search
 client: University Project
 website:
