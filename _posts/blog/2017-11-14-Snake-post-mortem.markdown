@@ -34,7 +34,7 @@ With the algorithms settled I then got to work designing an application structur
 
 After much consideration I eventually settled on this object model:
 
-![My Object Model](https://n86-64.github.io/img/snake/snake_plan_final.png)
+![My Object Model](https://n86-64.github.io/assets/img/blog/snake_plan_final.png)
 
 As you can see I decided to build my object model on the concept of a game space hierarchy model or to put it another way:
 
