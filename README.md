@@ -71,6 +71,7 @@ categories:
 ---
 ####Can I use this theme for my website?
 Of course you can!
+
 ```
 ####Publish
 To publish with [GitHub Pages](https://pages.github.com/), simply create a branch called `gh-pages`in your repository. GitHub will build your site automatically and publish it at `http://yourusername.github.io/repositoryname/`.  
