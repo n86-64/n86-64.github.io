@@ -5,7 +5,7 @@ title: Nathan Butt
 description: "A place known for code and games."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "/" #important: start with /
-url: "https://n86-64.github.io/solid-jekyll"
+url: "https://n86-64.github.io/"
 
 # Build settings
 highlighter: rouge
