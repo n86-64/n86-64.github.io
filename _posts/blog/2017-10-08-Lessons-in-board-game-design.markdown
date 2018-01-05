@@ -36,10 +36,10 @@ After experimenting there were two possible modification we came to consider. Bo
 
 The first was to introduce a battle mechanic into tic-tac-toe.
 
-![Our Battle variant of Tic Tac Toe](https://n86-64.github.io/img/DSC_0027.JPG)
+![Our Battle variant of Tic Tac Toe](https://n86-64.github.io/assets/img/blog/DSC_0027.JPG)
 
 In battle tic-tac-toe we kept the same goal but changed the core loop of the game. When the player puts a piece down they have the option to attack the opponent from a square. The attacks followed a rock-paper-scissors model where each shape is both weak to one shape and strong against another.
- ![The Rules](https://n86-64.github.io/img/DSC_0028.JPG)
+ ![The Rules](https://n86-64.github.io/assets/img/blog/DSC_0028.JPG)
 
 This variation of the game had more depth as it allowed players to plan moves as well as counter potentially problematic moves. Thus resulting in the elimination of the first move advantage and the broadening of possible strategies in the game.
 
@@ -49,7 +49,7 @@ In essence it assists in eliminating the first move advantage and adds some reas
 
 ## The L Game
 
-![The L Game](https://n86-64.github.io/img/The_L_Game.png)
+![The L Game](https://n86-64.github.io/assets/img/blog/The_L_Game.png)
 
 [Source: Wikipedia User - Cburnett](https://en.wikipedia.org/wiki/L_game#/media/File:L_Game_start_position.svg)
 
@@ -58,7 +58,7 @@ The L Game was a puzzle game created in the 1960's by Edward de Bono. The goal o
 The L game compared to Tic-Tac-Toe is vastly more complex and as a result has a higher skill ceiling than Tic-Tac-Toe. Despite this though we were able to find some simple strategies which could be used to win the game quickly. Hence for the L game the focus was on increasing the difficulty of the game.
 
 
-![The L Game Design Alternatives](https://n86-64.github.io/img/DSC_0029.JPG)
+![The L Game Design Alternatives](https://n86-64.github.io/assets/img/blog/DSC_0029.JPG)
 
 We did this via changing the shapes of the pieces to a Z like shape. However this in combination with the use of the neutral pieces had the unintended effect of reducing the number of possible moves that could be made. Resulting in very short games. One change that we were considering was expanding the board however due to time constraints we were unable to test these changes.
 
