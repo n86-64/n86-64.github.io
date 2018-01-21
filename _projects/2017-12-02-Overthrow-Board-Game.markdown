@@ -22,9 +22,9 @@ published: true
 ---
 
 ## Get it here
-<a href="/solid-jekyll/assets/documents/overthrow/Rulebook.pdf">Rulebook</a>
+<a href="/assets/documents/overthrow/Rulebook.pdf">Rulebook</a>
 
-<a href="/solid-jekyll/assets/documents/overthrow/Presentation.pptx">Game Presentation</a>
+<a href="/assets/documents/overthrow/Presentation.pptx">Game Presentation</a>
 
 
 Overthrow is a strategy board game that I along with several other team members developed as part of the play and games module on my university course. The game was inspired by several other strategy games  such as Civilisation and Terranova and supports either 2 or 4 players.

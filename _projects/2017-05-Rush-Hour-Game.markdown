@@ -23,7 +23,7 @@ published: true
 ### Get it Here:
 
 <p>
-<a href="/solid-jekyll/assets/content/ManicTraffic.zip">Download Here</a>
+<a href="/assets/content/ManicTraffic.zip">Download Here</a>
 </p>
 
 <p>
