@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "New Year New Start"
+date:   2018-01-21 17:00:00
+author: Nathan Butt
+categories:
+- New Year Messages
+- Summery
+- Games Programming
+- Overview
+img:
+thumb:
+published: false
+---
+
+# Hello one and all. I hope you are all doing well and I would just like to take a second to wish you all a happy new year (a bit late I know)
+
+I just thought I'd take a bit of time to update you about my happenings since November and what my plans are for the coming year. Its safe to say last semester was very hectic in terms of workload, so it shouldn't come as a surprise that it was a huge relief to finally finish my assignments and get some good time off over Christmas.
+
+<!--more-->
+
+So what have I been up to since my last post? Well most of that time was spend finishing up the core assignments for my university course. These assignments included the endless runner game as well as the overthrow board game and a 3D platformer level.
+
+Alongside finishing these assignments I also managed to get some time in to begin experimenting and really broaden my computing horizons as it were.
+
+## The Assignments
+
+I wont be saying much here about the assignments themselves as I will be having as there will be dedicated blogposts for them. However, I will say that doing these assignments has allowed me to gain considerable experience utilising new tools and techniques.
+
+<!--TODO - finish this blogpost. -->

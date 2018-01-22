@@ -4,7 +4,7 @@
 title: Nathan Butt
 description: "A place known for code and games."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "/" #important: start with /
+baseurl: "" #important: start with /
 url: "https://n86-64.github.io/"
 
 # Build settings
@@ -64,7 +64,7 @@ members:
   - name: Nathan Butt
     position: Games Tech Student
     text:
-    img: profile.JPG 
+    img: profile.JPG
     social:
       - title: envelope #use for email address
         url: mailto:Nathan2.Butt@live.uwe.ac.uk
