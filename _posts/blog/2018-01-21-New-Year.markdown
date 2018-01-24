@@ -6,25 +6,32 @@ author: Nathan Butt
 categories:
 - New Year Messages
 - Summery
-- Games Programming
-- Overview
 img:
 thumb:
 published: false
 ---
 
-# Hello one and all. I hope you are all doing well and I would just like to take a second to wish you all a happy new year (a bit late I know)
+Hello everyone and happy new year (a bit late I know). I hope last year went well for you all and I would just like to take some time to explain what I've been up to over the Christmas break and what my plans are for the coming year.
 
-I just thought I'd take a bit of time to update you about my happenings since November and what my plans are for the coming year. Its safe to say last semester was very hectic in terms of workload, so it shouldn't come as a surprise that it was a huge relief to finally finish my assignments and get some good time off over Christmas.
+Its safe to say that last semester was a very busy time. With deadlines now out of the way I hope to build on what I learned last semester to have a much smoother time of it.
+
+So what have I been up to then, well...
 
 <!--more-->
 
-So what have I been up to since my last post? Well most of that time was spend finishing up the core assignments for my university course. These assignments included the endless runner game as well as the overthrow board game and a 3D platformer level.
+## Assignments
+It should be no surprise that most of last semester was spend working on my assignments. Since my last post I have completed several assignments ranging from designing a 3D level to creating that endless runner game I was on about. Whilst these assignments were challenging in there own respective ways, these tasks served as a great excuse to try out new approaches and ideas.
 
-Alongside finishing these assignments I also managed to get some time in to begin experimenting and really broaden my computing horizons as it were.
+This is especially true for the Game Engine Architecture assignment. In this assignment we were tasked with implementing a particular effect for use in video game. There were five options that we were allowed to pick from and I chose to create a grass rendering system that would be capable of creating an effect of a field of grass spanning across the environment.
 
-## The Assignments
+I decided for this effect to attempt to create a geometry shader which would construct grass shards based an input geometry data set such as that provided by the
 
-I wont be saying much here about the assignments themselves as I will be having as there will be dedicated blogposts for them. However, I will say that doing these assignments has allowed me to gain considerable experience utilising new tools and techniques.
+## Exploring
+
+
+
+## Plans for the year
+
+
 
 <!--TODO - finish this blogpost. -->
