@@ -24,7 +24,10 @@ It should be no surprise that most of last semester was spend working on my assi
 
 This is especially true for the Game Engine Architecture assignment. In this assignment we were tasked with implementing a particular effect for use in video game. There were five options that we were allowed to pick from and I chose to create a grass rendering system that would be capable of creating an effect of a field of grass spanning across the environment.
 
-I decided for this effect to attempt to create a geometry shader which would construct grass shards based an input geometry data set such as that provided by the
+I decided for this effect to attempt to create a geometry shader which would construct grass shards based on input geometry along with several variables such as grass length and bend. The shader that I created was based on an existing implementation which I subsequently adapted from the paper.
+
+The assignment required two implementations of the effect to be submitted. Hence I decided to implement the same geometry shader in two different low level engines.
+
 
 ## Exploring
 

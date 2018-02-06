@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "Smashing System"
+date:   2018-02-05 11:00:00
+author: Nathan Butt
+categories:
+- Game Engine Programming
+- C++
+- Game Engines
+img: supersmash.jpg
+thumb: ssb.jpg
+published: false
+---
+
+My university studies have very much begun and with that I have been given one of my first assignments. This assignment is part of my GEP or Game Engine Programming module and requires us to produce a small-scale game engine based on a pre-existing game which is selected by our lecturer.
+
+<!--more-->
+
+## The game
+
+As the title implies, the game that we were given was Super Smash Bros. Incase you don't know, Super Smash Bros. or SSB is a 4/8-player arena 2.5D fighting game produced by Nintendo. The main objective of the game is to knock your opponents out of the arena. No prizes for guessing that this is done via punching, kicking and using items. Once you have built up enough damage against an opponent you are then able to use a smash attack and knock them out of the arena with damage being proportional to the momentum that the player receives from an attack.
+
+Whilst a seemingly simple game there are a lot of hidden complexities and subtle nuances to the game which is why today it is considered one of the most popular fighting games in the world amassing an infamous reputation in the fighting game community.
+
+The game comes with a variety of game modes from Timed battles to stocks/lives.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k2izw5VJNfg?start=67&end=214" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+</iframe>
+
+<p>Smash Bros WII U Gameplay (Curtosey of ZackScottGames)</p>
+
+## The Assignment
+
+The assessment is in essence designed to emulate a typical software development process for a game engine. Each individual is allocated a team within the module and the said team has to produce the said engine. I was allocated onto a team with three other individuals and immediately set about working with my team members to get a plan of action together.
+
+The assessment has two major stages, a concept stage and a production stage. The planning stage involves the creation of a basic "throwaway" prototype of the game with the production stage being the development and final release of the engine for our game.
+Hence our goal at the moment is to create a basic SSB prototype as well as get all the paperwork together for our submission.
+
+Whilst the developed prototype will not be used directly or released, it will still be very useful in allowing me and the team to work out a basic structure for the game. These structures and routines can then be transferred into the final project and further refined to allow us to create a well-rounded game which is both enjoyable and functional.
+
+## The Prototype
+
+After approximately three weeks of development we were able to create a basic prototype.
+
+During development each member of the team was assigned a different section of the prototype. My role was to create the UI components and the basic gamestate/gamelogic system.
+
+
+
+
+<!--TODO - finish this blogpost. -->
