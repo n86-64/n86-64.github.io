@@ -40,11 +40,33 @@ Whilst the developed prototype will not be used directly or released, it will st
 
 ## The Prototype
 
-After approximately three weeks of development we were able to create a basic prototype.
+After approximately three weeks of development me and my team were able to create a basic prototype.
+This prototype contained many key SSB mechanics such as character selection, map selection and basic combat. The prototype allowed up to 4 players to connect their controllers and play through a selection of 3 levels which could be selected through the character selection screen.  
 
-During development each member of the team was assigned a different section of the prototype. My role was to create the UI components and the basic gamestate/gamelogic system.
+![demo1](https://n86-64.github.io/assets/img/blog/GEP/protodemo1.gif)
+![demo2](https://n86-64.github.io/assets/img/blog/GEP/protodemo2.gif)
+![demo3](https://n86-64.github.io/assets/img/blog/GEP/protodemo3.gif)
+
+The prototype was successful in several ways, such as allowing for the creation of custom gamemodes and allowing for custom configurable characters. Users could also use both the keyboard and controllers to move the characters around on screen and they were able to fight each other with a basic SSB-like combat system. This meant that upon being punched the players would be sent in the said direction of attack according to the damage they received.
+
+However, the prototype did have significant limitations and bugs which mostly affected movement and momentum in the game. These bugs were the result of both problems with source control organisation which would be an issue when managing the input manager for example, as well as certain methods that we had used in capturing input. The prototype also didn't contain a number of elements such as the ability to temporarily disable physics collisions for players allowing them to fall through platforms.
+
+In order to create the prototype each of us assigned ourselves a role focusing on one particular area of the program.
+
+My role was to create the UI components, and the 'game mode' system which would allow for custom game modes and custom game settings for each session. The UI system comprised of the main menu and an in-game UI that would display the current time and health of the player. The gamemode system which would allow for overriden behaviour, allowing custom objectives and scoring systems to be used. This also included a mechanism for providing player information allowing players to be spawned and input to be mapped.
 
 
+## What we learned
+
+The development of this prototype allowed us to get a clear insight into the components that we require for our engine. During development due to various factors we encountered a number of issues.
+
+One notable issue we had was to do with input. Input in Unity for controllers is handled via separate input entries which are then mapped to individual joysticks. This resulted in excessive redundancy as we would have to keep entering new input fields for the other players. Hence our team intends to create a more robust input server/manager which can eliminate this redundancy via having common input mapping which can then either be retrieved from individual controllers or all controllers.
+
+We also encountered issues with the repository when it came to merging the project together. This was the result of code divergence in the project in areas such as input management. Hence when it came to merging, it resulted in a number of conflicts which in tern led to data loss in effect. Also, we had no scheme for merging into the development branch with each of us merging as needed. But this resulted in merge conflicts. So, when it comes to the engine we are going to be spending more time in the planning phase agreeing both a standard and a pull request system. Pull requests are a feature of git which in essence notifies the developers the intention to merge. This way the group and I can review changes and ensure they don't break as well as allow us to update our development branches before starting a project.
 
 
-<!--TODO - finish this blogpost. -->
+## Whats next
+
+Now that the prototype has been finished we will be having various SCRUM meetings over the next week to discuss the direction of the engine. Our primary focus will be on planning development of the engine from the engine structure and documentation, to organising the project management structure.
+
+ This stage should be completed relatively quickly and will then allow us to commence development of the engine itself. Creating each component class by class.
