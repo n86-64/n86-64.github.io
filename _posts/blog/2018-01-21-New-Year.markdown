@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "New Year New Start"
-date:   2018-01-21 17:00:00
+date:   2018-01-22 10:00:00
 author: Nathan Butt
 categories:
 - New Year Messages
 - Summery
-img:
-thumb:
-published: false
+img: fireworks-img.gif
+thumb: fireworks.gif
+published: true
 ---
 
 Hello everyone and happy new year (a bit late I know). I hope last year went well for you all and I would just like to take some time to explain what I've been up to over the Christmas break and what my plans are for the coming year.
@@ -26,15 +26,35 @@ This is especially true for the Game Engine Architecture assignment. In this ass
 
 I decided for this effect to attempt to create a geometry shader which would construct grass shards based on input geometry along with several variables such as grass length and bend. The shader that I created was based on an existing implementation which I subsequently adapted from the paper.
 
-The assignment required two implementations of the effect to be submitted. Hence I decided to implement the same geometry shader in two different low level engines.
+The assignment required two implementations of the effect to be submitted. Hence I decided to implement the same geometry shader in two different environments, Unity and OpenGL 4.5. Whilst the implementation may have been a mixed bag in terms of results with the application being limited in some respects I did gain significant benefit from this project.
 
+The Project allowed me to practise using industry standard development tools such as RenderDoc which I used to profile both the Unity and OpenGL projects. The development of this project also taught me more about OpenGL as an API, specificity how to set up element buffers properly.
+
+Alongside GEA, I also had to make an in-game level as part of my
+Game Level Design (GLD) module. The module required the creation of a basic 3D level where a player would have to playthrough the beginning of a 3D platformer. The level would need to be set on a ship crash-landing from space. Overall this level could have been improved significantly, but it meet all of the necessary requirements and I was able to get a good mark on the assignment.
+
+In terms of the Endless runner assignment I will be doing a separate post mortem blog post on that soon.
 
 ## Exploring
 
+Since my last post I have also made a drastic transition. Thanks to the miracle of virtual machines I have now been running Linux on my machine on a regular basis. I primarily did this in order to simplify access to the various Unix-like/GNU development tools. (Which can be a nightmare to install and get working on Windows)
 
+Since then I have successfully dual-booted my machine and currently run Fedora Linux as my partial daily driver. This has allowed me to truly benefit from Linux's many advantages. Such as the centralised package management which makes acquiring packages and dependencies easier for building software.
+
+However, it is safe to say that it was a slight learning curve. The last time I used Linux on a somewhat regular basis was back in 2012-2013. In that time a lot has changed in the Linux world what with the rise of Linux gaming with the arrival of Steam to Linux. Hence I feel by using and developing my software on Linux it will give me an edge in the software development space.
 
 ## Plans for the year
 
+This year I hope to significantly improve over last year in many aspects. I hope to move on from the first half of the second year via having a more complete plan of action than the first semester. The reason for many of the issues last year was primarily due to disorganisation and I intend on planning out the use of my time more effectively this semester. This will both allow me to get my work done to a good standard and give me more time to peruse personal projects.
 
+In the mean time this coming year is going to be very busy. Not only will I be continuing my existing modules, but in place of GLD I will be taking a module called Game Engine programming which will require us to create a Game Engine for a game that is yet to be specified. So, next Semester I will have a major research and two major software projects on the go. Whilst this is going to be challenging, the experience of last semester has prepared me for the challenges that lay ahead and with any luck I will be able to greatly improve this time round and produce some great pieces of work.
+
+Don't expect updates to be stopping anytime soon though. I will still be regularly posting here detailing my exploits, especially in the case of my progress in GEP and LLP. I also intend to continue with my Linux development, using the GEP assignment as a golden opportunity to attempt to learn how to create a multi-platform application. Outside of academia have plans to start working on personal small projects to help broaden my knowledge and experience, such as learning new langauges or creating small games.  
+
+2018 is certainly going to be an interesting time and I look forward to relishing in the challenges that it will offer.
+
+All the Best
+
+Nathan
 
 <!--TODO - finish this blogpost. -->

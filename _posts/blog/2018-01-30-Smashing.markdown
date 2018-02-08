@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Smashing System"
-date:   2018-02-05 11:00:00
+date:   2018-02-07 23:00:00
 author: Nathan Butt
 categories:
 - Game Engine Programming
@@ -9,7 +9,7 @@ categories:
 - Game Engines
 img: supersmash.jpg
 thumb: ssb.jpg
-published: false
+published: true
 ---
 
 My university studies have very much begun and with that I have been given one of my first assignments. This assignment is part of my GEP or Game Engine Programming module and requires us to produce a small-scale game engine based on a pre-existing game which is selected by our lecturer.
@@ -69,4 +69,4 @@ We also encountered issues with the repository when it came to merging the proje
 
 Now that the prototype has been finished we will be having various SCRUM meetings over the next week to discuss the direction of the engine. Our primary focus will be on planning development of the engine from the engine structure and documentation, to organising the project management structure.
 
- This stage should be completed relatively quickly and will then allow us to commence development of the engine itself. Creating each component class by class.
+This stage should be completed relatively quickly and will then allow us to commence development of the engine itself. Creating each component class by class.
