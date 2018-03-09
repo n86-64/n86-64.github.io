@@ -31,7 +31,7 @@ In terms of project requirements, the game had to be ‘tangentially’ linked t
 The first of these concepts was my idea which was a theatre tower defence game where the player would take the role of a theatre technician, defending the actors on stage from killer assassins using a variety of stage props and equipment provided in each level. Similar to how props are used to stop Elmer Fudd from shooting Daffy in the Warner Bros Animation Short, ‘Daffy Rhapsody’.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ala8dGr1soU?start=65" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-*Daffy Rhapsody short served as key inspiration for the game.*
+*Daffy Rhapsody short served as key inspiration for this particular concept.*
 
 The other concept was a beat ‘em up game which would utilise many elements to get the primary themes of birdman across such as the pace at which enemies attacked you. This game would be in-essence a metaphor representing the mind of Riggan Thompson.
 Both these ideas had their merits and drawbacks but after considering both time and collective experience with programming amongst the group we decided to go with the latter idea. Doing so meant we would spend less time trying to perfect the core game mechanic, in theory giving us time to polish up the game and as a result deliver a better product. However, I personally wanted to attempt the first idea as I felt it was more original, interesting, and simple in terms of both AI and gameplay as well as being quite scalable. Although, whilst slightly easier the first idea would have had drawbacks as it would have required a high-quality animation and audio to make up for the slightly limited gameplay.
