@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Birdman Brawler - Part 1"
+date:   2018-03-01 23:00:00
+author: Nathan Butt
+categories:
+- Low Level Programming
+- C++
+- Games Programming
+- Developer Dairy
+- Birdman Game
+img: birdman.jpg
+thumb: birdman_thumb.png
+published: true
+---
+Welcome to the start of a series of posts on my current LLP assignment. One that involves a noticeably strange super hero hybrid. I am of course talking about ‘Birdman’.
+‘Birdman’ also known as ‘Birdman or the unexpected virtue of ignorance’ is a black/dark comedy film released in 2014 starring Michael Keaton.  In the film, Keaton takes the role of Riggan Thompson, an actor in the middle of a midlife crisis putting on his own Broadway production in the hopes of gaining relevance and meaning once again.
+
+<!--more-->
+
+Whilst Birdman was a film which had both financial and critical success, it’s also by coincidence happens to be the topic for the next assignment in LLP. With this assignment being, to design and create a small game based on the film which would have to meet a set of both design and technical requirements. For this assignment, we were assigned into various groups where we would be required to all contribute to the development of the game from the basic concept to the underlying mechanics.
+
+With this direction in mind, me and my assigned teammates immediately set out to design and create this game keeping in mind the various requirements and themes which will set our game apart.
+
+## Concept Stage:
+The first step like in any creative process for us was to come up with an idea which we can then develop and present in front of our lecturer. This assignment required us to create an elevator pitch. In this pitch we would have to present our ideas to our lecturer who would then evaluate the pitch, and if he was pleased with the concept would then greenlight the concept allowing to develop it into a full game.
+
+This project was given to us prior to the Christmas holiday with the being in early January. So, with that our group began to consider a set of interesting ideas that would allow us to create a game which would have original concepts as well as a repayable core mechanic.
+In terms of project requirements, the game had to be ‘tangentially’ linked to Birdman which gave us a lot of freedom in terms of the concepts that we can go for providing it linked back to birdman in some way. With this direction in mind we considered several possible concepts around various themes of the film. After much consideration we were able to whittle down our selection to just two concepts.  
+
+The first of these concepts was my idea which was a theatre tower defence game where the player would take the role of a theatre technician, defending the actors on stage from killer assassins using a variety of stage props and equipment provided in each level. Similar to how props are used to stop Elmer Fudd from shooting Daffy in the Warner Bros Animation Short, ‘Daffy Rhapsody’.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ala8dGr1soU?start=65" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+*Daffy Rhapsody short served as key inspiration for the game.*
+
+The other concept was a beat ‘em up game which would utilise many elements to get the primary themes of birdman across such as the pace at which enemies attacked you. This game would be in-essence a metaphor representing the mind of Riggan Thompson.
+Both these ideas had their merits and drawbacks but after considering both time and collective experience with programming amongst the group we decided to go with the latter idea. Doing so meant we would spend less time trying to perfect the core game mechanic, in theory giving us time to polish up the game and as a result deliver a better product. However, I personally wanted to attempt the first idea as I felt it was more original, interesting, and simple in terms of both AI and gameplay as well as being quite scalable. Although, whilst slightly easier the first idea would have had drawbacks as it would have required a high-quality animation and audio to make up for the slightly limited gameplay.
+
+After many hours discussing the merits and drawbacks of the two ideas we decided to adapt the beat ‘em up concept for our game. With the framework for the core mechanics decided, we now needed to establish how the games design was going to meet the theme. Whilst we could have decided to just have the game star characters from the film, this would have been a cheap and low effort attempt to link the film to our game as well as resulting in a generic experience.
+
+Our solution to this issue was to build the games design around a gameplay as storytelling approach. That is the gameplay mechanics, enemies, and levels that you would encounter represent a one of several themes in Birdman. With this in mind I suggested that the game should act as an adventure through Riggan’s mind where a Riggan like character would have to fight through his various fears, with a final boss battle at the end being a representation of birdman in the film. That is the amalgamation of all his fears and concerns as one huge, monolithic entity. This would not only meet the requirement of being tangentially linked to birdman but also give us the flexibility to add in our own characters, scenery, and art style. This idea was liked by the team and as a result we decided to proceed with this direction.
+
+Alongside the core design elements we also decided on the general structure of the game. In this regard we decided to give the player the freedom to chose which levels they complete and in what order, similar in fashion to the game Cuphead.
+
+With all these design elements agreed upon, we developed our elevator pitch presentation where we aimed to get across these design ideas clearly and coherently. Thankfully we were successful in this endeavour and we were able to easily get the game greenlight. Now our team has got the greenlight we immediately hit the ground running, developing the various components of the game from the assets and level design.
