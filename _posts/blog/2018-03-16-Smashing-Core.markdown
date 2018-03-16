@@ -16,6 +16,8 @@ published: true
 In GEP, development of our Smash Bros clone has been coming along fairly smoothly. Since the last post a good deal of progress has been made regarding many of the engines components and subsystems. Whilst the game is currently not ready for a beta release, me and the team are confident that we will be able to pull the game together and get ready for the beta release portion of the assignment.  
 Upon finishing the alpha, we as a group had a couple of SCRUM meetings and began to organise and delegate the various tasks based on the set of requirements that we had to meet. The first issue we had to address was deciding on what work had to be done, which varies according to both the technology we wanted to use and the features that we want in our game.
 
+<!--more-->
+
 In terms of technology we were provided with a basic game framework built on DirectXTK12 This is a higher-level wrapper for the DirectX12 API which provides several sets of utilities inspired by the XNA library such as a spritebatch for rendering sprites and input support.  (More on this later.)
 
 The framework contained many custom additions and data structures to perform basic tasks such as sound playback and physics. However, these objects are very limited in functionality and did not allow for many advanced features such as sprite effects or physics simulation.
