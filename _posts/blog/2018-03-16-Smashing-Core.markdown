@@ -18,7 +18,7 @@ Upon finishing the alpha, we as a group had a couple of SCRUM meetings and began
 
 <!--more-->
 
-In terms of technology we were provided with a basic game framework built on DirectXTK12 This is a higher-level wrapper for the DirectX12 API which provides several sets of utilities inspired by the XNA library such as a spritebatch for rendering sprites and input support.  (More on this later.)
+In terms of technology we were provided with a basic game framework built on DirectXTK12. This is a higher-level wrapper for the DirectX12 API which provides several sets of utilities inspired by the XNA library such as a spritebatch for rendering sprites and input support.  (More on this later)
 
 The framework contained many custom additions and data structures to perform basic tasks such as sound playback and physics. However, these objects are very limited in functionality and did not allow for many advanced features such as sprite effects or physics simulation.
 Considering these factors alongside the core requirements that we were given, we decided to focus on these features for the beta:
@@ -77,7 +77,7 @@ Perusing this further I also began to get assistance from some of my lecturers d
 
 ![D3D12 Bug](https://n86-64.github.io/assets/img/blog/GEP/D3D12_bug.png)
 
-This break also came with some debugging messages which was logged to Visual Studios Debugging log.
+This break also came with some debugging messages which showed up in Visual Studios output logger.
 
 ```
 D3D12: Removing Device.
