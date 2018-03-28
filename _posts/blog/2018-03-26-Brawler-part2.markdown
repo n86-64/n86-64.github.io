@@ -41,6 +41,7 @@ Therefore inspired by Unity3D and Unreal I decided on a component model. Each ob
 
 
 ![I decided to adopt this model for all game component objects.](https://n86-64.github.io/assets/img/blog/LLP/component_model.png)
+
 *I decided to adopt this model for all game component objects.*
 
 The implementation for this system is relatively easy with all components being collected in a centralised container within the GameObjects. Each GameObject then contains a number of utility functions which allow components to be found and then interacted with.
@@ -71,6 +72,7 @@ I utilised a hybrid approach based on the observer model where each game object 
 This not only decoupled these objects, but it also greatly simplified operations such as scene management from game objects. Meaning behaviour such as entry doors which take the players to new scenes is quick and easy to add without too many difficulties surrounding bugs etc. However, other than this key modification the system design is very similar to the previous games except with the addition of a scene manager. The scene manager responsible for updating, rendering and transitioning scenes.
 
 ![Scene Manager acts as an observer to the scene.](https://n86-64.github.io/assets/img/blog/LLP/component_model.png)
+
 *Scene Manager acts as an observer to the scene.*
 
 ## Gameplay Systems
