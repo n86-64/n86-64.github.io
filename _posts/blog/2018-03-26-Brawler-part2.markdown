@@ -10,7 +10,7 @@ categories:
 - Development Dairy
 - Birdman Game
 img: birdman2.jpg
-thumb: birdman_thumb2.png
+thumb: birdman_tumb2.png
 published: true
 ---
 
@@ -39,7 +39,9 @@ One limitation however that was noticeable in previous games I made was the limi
 
 Therefore inspired by Unity3D and Unreal I decided on a component model. Each object would have a generic component container with players being able to acquire components from this container via search utilising the C++ template system. Hence functionality such as audio sources and gameplay systems could now be expressed as GameComponents which can then be dynamically added or removed from classes allowing for truly bespoke behaviour. These game components would contain a limited set of functions, namely and update and render routine with other components being specialised via inheritance, in a similar fashion to GameObjects. This model is useful in two-fold as it allows for specialised behaviours to be easily added to classes without having to reimpliment said behaviours reducing code duplication as well as simplifying an observer model implementation as the scene management system is then able to check for these components and register them with their appropriate managers.  
 
-[*I decided to adopt this model for all game component objects.*](https://n86-64.github.io/assets/img/blog/LLP/component_model.png)
+
+![*I decided to adopt this model for all game component objects.*](https://n86-64.github.io/assets/img/blog/LLP/component_model.png)
+*I decided to adopt this model for all game component objects.*
 
 The implementation for this system is relatively easy with all components being collected in a centralised container within the GameObjects. Each GameObject then contains a number of utility functions which allow components to be found and then interacted with.
 
@@ -68,7 +70,8 @@ I utilised a hybrid approach based on the observer model where each game object 
 
 This not only decoupled these objects, but it also greatly simplified operations such as scene management from game objects. Meaning behaviour such as entry doors which take the players to new scenes is quick and easy to add without too many difficulties surrounding bugs etc. However, other than this key modification the system design is very similar to the previous games except with the addition of a scene manager. The scene manager responsible for updating, rendering and transitioning scenes.
 
-[*Scene Manager acts as an observer to the scene.*](https://n86-64.github.io/assets/img/blog/LLP/component_model.png)
+![*Scene Manager acts as an observer to the scene.*](https://n86-64.github.io/assets/img/blog/LLP/component_model.png)
+*Scene Manager acts as an observer to the scene.*
 
 ## Gameplay Systems
 
