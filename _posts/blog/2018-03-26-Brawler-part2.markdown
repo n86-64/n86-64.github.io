@@ -71,7 +71,7 @@ I utilised a hybrid approach based on the observer model where each game object 
 
 This not only decoupled these objects, but it also greatly simplified operations such as scene management from game objects. Meaning behaviour such as entry doors which take the players to new scenes is quick and easy to add without too many difficulties surrounding bugs etc. However, other than this key modification the system design is very similar to the previous games except with the addition of a scene manager. The scene manager responsible for updating, rendering and transitioning scenes.
 
-![Scene Manager acts as an observer to the scene.](https://n86-64.github.io/assets/img/blog/LLP/component_model.png)
+![Scene Manager acts as an observer to the scene.](https://n86-64.github.io/assets/img/blog/LLP/scene_manager.png)
 
 *Scene Manager acts as an observer to the scene.*
 
