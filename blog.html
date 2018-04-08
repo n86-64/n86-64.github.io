@@ -10,7 +10,7 @@ permalink: /blog/
         <! -- BLOG POSTS LIST -->
         <div class="col-lg-8">
 
-            {% for post in site.posts %}
+            {% for post in site.posts limit:5 %}
             {% if post.published == true %}
                 <! -- Blog Post -->
                 <a href="{{ post.url | prepend: site.baseurl }}">
