@@ -11,7 +11,7 @@ categories:
 - Networking Game
 img: network-thumb.jpg
 thumb: network.png
-published: false
+published: true
 ---
 
 In LLP we have now been tasked with our final assignment of the year. Just as fitting that it is also the most challenging assignment of the year. For this assignment we have been tasked with creating a turn-based game which can be played over a network. The game must possess multi-threading capabilities such as utilising multiple threads in network and input management. We will be required to produce a vertical slice or short-demo demonstrating some set of mechanics in the game.
