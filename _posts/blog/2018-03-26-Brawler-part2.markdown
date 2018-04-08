@@ -7,7 +7,7 @@ categories:
 - Low Level Programming
 - Games Programming
 - C++
-- Development Dairy
+- Developer Dairy
 - Birdman Game
 img: birdman2.jpg
 thumb: birdman_tumb2.png

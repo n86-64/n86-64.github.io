@@ -7,7 +7,7 @@ categories:
 - Low Level Programming
 - Games Programming
 - C++
-- Development Dairy
+- Developer Dairy
 - Networking Game
 img: network-thumb.jpg
 thumb: network.png
