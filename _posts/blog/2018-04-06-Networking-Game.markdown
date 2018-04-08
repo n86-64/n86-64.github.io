@@ -9,8 +9,8 @@ categories:
 - C++
 - Development Dairy
 - Networking Game
-img:
-thumb:
+img: network-thumb.jpg
+thumb: network.png
 published: false
 ---
 
@@ -44,7 +44,7 @@ As you can imagine are significantly more aspects we had to consider in this gam
 
 The first challenge for this system was to decide how we should approach networking. This is an area of the game that is primarily my responsibility and my goal was to ensure data of any type could be transferred over a network seamlessly and the streamed according to its type. These packets could then be processed by the client and the server accordingly. The packets would also provide information such as the username and IP address of the client for use on the server and visa versa.
 
-<!--TODO insert picture of packet here-->
+![Scene Manager acts as an observer to the scene.](https://n86-64.github.io/assets/img/blog/LLP/network-packet.png)
 
 These packets after being queued will then be polled on the main thread. Hence the clients state can then be updated quickly and efficiently whilst server data is collected in the background without having to wait for a response from the server. However as two threads could be accessing the data at the same time I intend to use a mutex to prevent the possibility of data racing\ memory RW order errors.
 
@@ -68,21 +68,29 @@ These packets after being queued will then be polled on the main thread. Hence t
                     convert and process all packets from packet_queue
 ```
 
-In terms of networking architectures we had to decide which of two we should use. We could choose between either peer to peer (P2P) or client-server. After considering the trade-offs of the two architectures we decided on using a client-server architecture. For us a client-server architecture is ideal as it ensures consistency in terms of the games simulation as well as flexibility allowing anyone to use the server software component to host there own server with a set of custom configurations. The client-server also allows us to easily manage the game such as the ability to change missions on the fly for example.  <!--TODO check this section of the blogpost-->
+In terms of networking architectures we had to decide whether to use peer to peer (P2P) or client-server. After considering the trade-offs of the two architectures we decided on using a client-server architecture. For us a client-server architecture is ideal as it ensures consistency in terms of the games simulation as well as flexibility allowing anyone to use the server software component to host there own server with a set of custom configurations if they so choose. The client-server also allows us to easily manage the game such as the ability to change missions on the fly for example.
 
 ### Main System
 
-For this game our team is going to be utilising what I have dubbed the 'Sentire engine' built on top of the existing ASGE framework that we have been using. This refers to the set of objects and systems that my team originally wrote for the last assignment in LLP. Whilst we may have wrote these elements specifically for that game, the data driven approach I took with many of the components means that a good chunk of the code base can be reused without any issues. Hence many aspects such as the world manager and GameObject system will be reused with some additional modifications to correct any system issues that the game may have previously had due to last minute system design etc.
+For this game our team is going to be utilising what I have dubbed the 'Sentire engine' built on top of the existing ASGE framework that we have been using. This refers to the set of objects and systems that my team originally wrote for the last assignment in LLP. Whilst we may have wrote these elements specifically for that game, the data driven approach I took with many of the components means that a good chunk of the code base can be reused without any issues. Hence many aspects such as the world manager and GameObject system will be reused with some additional modifications to correct any system issues that the game may have previously had, due to last minute system design etc.
 
 Such a model is useful as it makes creating and adding new gameplay systems relatively fast and easy. This includes the extensions to the system which need to be made to allow for network communication.
-
 
 ## Current Progress
 
 Currently, I have managed to finish planning the game and have made a start on the new networking system. Using the base system provided by my lecturer as a guide I have been able to successfully implement the packet and data transmission system. Whilst I am unable to read the contents of the packet queue, the data transmission works as expected and I am able to serialize data of a random nature into a packet allowing me to then stream the data out and in turn have the client and server behave according to the said command.
 
-This was however a difficult process to a certain extent.
+This was however a difficult process to a certain extent. The biggest issue was serializing the packet into a binary file whilst it was possible to cast the packet object as a enet_uint8* type this would result in issues. This was a result of pointers to members being send instead of the raw data itself. The result was that when quantities such as strings were passed through the data would not exist and attempts to access it would result in segmentation faults or other 'undefined' behaviours.  
 
-<!--TODO - finish explanation on the challenges of creating the networking system. -->
+My solution was to serialise the data with the metadata and data being serialised into a byte string quantity and then sent over the network. Then upon the data being received the packet would then be reassembled using the said bytestream. This in combination with error checking is a simple and flexible mechanism for sending all types of data over the network, as the data in the packet can be then streamed in and out to the appropriate classes as needed.
+
+```
+    Get Packet As Bytes ():
+          DataSize = Size of all Members in Bytes
+          File is Array Characters\Bytes of size DataSize
+
+          File[0..(Size of Metadata)] = MetaData As Bytes
+          File[(Size of MetaData)..DataSize] = Packet Data As Bytes
+```
 
 By the time of my next post I hope to have all of this sorted, putting me in a position to begin to implement the basic gameplay.
