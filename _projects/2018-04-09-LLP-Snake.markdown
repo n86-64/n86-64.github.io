@@ -1,0 +1,48 @@
+---
+layout: project
+title:  "LLP Game 1 - Snake"
+date:   2017-10-10
+author: Nathan Butt
+categories:
+- LLP Portfolio Games
+- Games Technology Course
+img: llp_snake.png
+thumb: llp_snake.png
+carousel:
+- LLP/snake1.gif
+- LLP/snake2.gif
+- LLP/snake.png
+- LLP/snake2.png
+tagged: Games, Low Level Programming
+client: University project
+website: N/A
+published: true
+---
+
+Snake is the first of my 5 games that I created as part of my LLP project.
+
+## About this Game
+
+This game is simply a custom version of the classic snake game found on many platforms, most notably the Nokia 3310.
+The goal in this game like all other versions of the classic game is to get as many points as possible.
+This is done simply by picking up fruit from various parts of the play field. Whilst picking up fruit may seem a simple way to get points, it also results in the players snake getting longer and longer. Any collision with a wall or the snake itself results in  a game over, therefore players need to be pay attention at all times, else there snakes days may be numbered.
+
+## Gameplay
+The gameplay pretty exactly follows the formula of pretty much all pre-existing snake games. The player simply needs to collect the fruit stationed around the level in order to try and get the most points possible. Collecting fruit increases the players score by either 1, 3 or 5 points depending on the item type.
+
+Whilst collecting these items increases the score of the player it also results in the players snake length increasing. The game ends when the player either hits the surrounding wall or themselves. With the player having there score displayed on screen and then having the option to play again.
+
+## Game Design and Features
+
+The game is played on a freeform grid where the player has the freedom to move the said snake how they like although due to the nature of the game being cell based this movement is in a grid like manner.
+
+The said snake dynamically grows and shrinks according to the fruit it consumes. This is achieved using an array of gameobjects which dynamically grows and shrinks according to the snake length value.
+
+The fruits in the game are placed randomly according to a base 2D vector value and a lower and upper bound which is set in the code. The item type is also randomised so the amount of points the player gains or looses varies dynamically, helping to keep the player attention as gaining more points also results in the snake getting longer hence the player needs to be mindful about what items there collecting.
+
+The game to allow for freeform representation also contains a basic box collision system, hence any item pickups or collisions can be detected and responded to. Upon the game being completed the high score is subsequently saved to a text file where it can be loaded again, providing replayability. The player is then able to either return to the main menu or quit the game.
+
+## Evaluation
+Whilst the game was able to fulfil the core requirements there was a set of functionalities that I wanted to implement but was unable to due to time constraints. Namely there were some bugs in the movement of the snake where it would jump suddenly but was unable to. Whilst there may have been issues in the development process the game was fully functional and tidy and was able to fulfil all the core requirements of this task to a decent standard.
+
+Accounting for this in my next game I would focus on starting development earlier instead of later. This way it would ensure that I would be able to implement all of my intended features whilst giving me the time to polish out the game and remove any bugs that may adversely effect the game experience.
