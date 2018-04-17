@@ -10,7 +10,6 @@ img: llp_snake.png
 thumb: llp_snake.png
 carousel:
 - LLP/snake1.gif
-- LLP/snake2.gif
 - LLP/snake.png
 - LLP/snake2.png
 tagged: Games, Low Level Programming
