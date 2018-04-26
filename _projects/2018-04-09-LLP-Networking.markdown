@@ -12,7 +12,7 @@ carousel:
 tagged: Games, Low Level Programming
 client: University project
 website: N/A
-published: false
+published: true
 ---
 
 Deadlock is the last of a series of games developed as part of my LLP assessment portfolio. This game was developed as part of the same team that made Sentire.
