@@ -6,13 +6,17 @@ author: Nathan Butt
 categories:
 - LLP Portfolio Games
 - Games Technology Course
-img: 
-thumb: 
+img: dungeon.jpg
+thumb: dungeon.jpg
 carousel:
+- LLP/dd.png
+- LLP/dd2.png
+- LLP/dd3.png
+- LLP/dd4.png
 tagged: Games, Low Level Programming
 client: University project
 website: N/A
-published: false
+published: true
 ---
 
 Dungeon Death is a game that was created as part of the LLP assessment portfolio.
