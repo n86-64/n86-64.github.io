@@ -6,8 +6,8 @@ author: Nathan Butt
 categories:
 - LLP Portfolio Games
 - Games Technology Course
-img: llp_snake.png
-thumb: llp_snake.png
+img: 
+thumb: 
 carousel:
 tagged: Games, Low Level Programming
 client: University project

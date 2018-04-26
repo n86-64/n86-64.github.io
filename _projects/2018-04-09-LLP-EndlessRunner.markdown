@@ -6,13 +6,13 @@ author: Nathan Butt
 categories:
 - LLP Portfolio Games
 - Games Technology Course
-img: llp_snake.png
-thumb: llp_snake.png
+img: runner.jpg
+thumb: runner.jpg
 carousel:
 tagged: Games, Low Level Programming
 client: University project
 website: N/A
-published: false
+published: true
 ---
 
 nRunner is the second of five games developed as part of my LLP assignment portfolio.
