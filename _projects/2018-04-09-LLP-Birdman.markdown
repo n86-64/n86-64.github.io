@@ -6,13 +6,16 @@ author: Nathan Butt
 categories:
 - LLP Portfolio Games
 - Games Technology Course
-img: llp_snake.png
-thumb: llp_snake.png
+img: birdman.jpg
+thumb: birdman.jpg
 carousel:
+- LLP/sen.png
+- LLP/sen2.png
+- LLP/sen3.png
 tagged: Games, Low Level Programming
 client: University project
 website: N/A
-published: false
+published: true
 ---
 
 Sentire is the third of five games produced as part of my LLP assignment portfolio. I developed this game as part of a team made up of two other developers.
