@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Smashing Core - Part 2"
-date:   2018-03-06 14:30:00
+date:   2018-03-20 14:30:00
 author: Nathan Butt
 categories:
 - Game Engine Programming
