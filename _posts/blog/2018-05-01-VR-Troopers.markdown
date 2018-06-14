@@ -29,4 +29,5 @@ However, whilst the demo was successful in meeting some of our objectives, there
 Despite these shortcomings however, the development of this VR application has been significantly useful in helping to reinforce the concepts behind  development processes in VR as well as the games industry as a whole. Knowledge which I intend to put to practise in my next VR project to improve the development process in-turn resulting in a more refined final product.
 
 If you were interested in what we have worked on and would like an overview of the development process, just simply click the link down below:
+
 [Find the dairy here](https://n86-64.github.io/PAGAssignment-VR/)
