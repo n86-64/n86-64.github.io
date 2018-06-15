@@ -72,6 +72,5 @@ members:
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "A keen programmer with a desire to learn and innovate."
 
-# Paginate splits blog listings into multiple pages. 
+# Paginate splits blog listings into multiple pages.
 paginate: 5
-paginate_path: "/blog/page:num/"
