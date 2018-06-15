@@ -42,7 +42,3 @@ The previous game had featured a hardcoded scene system where the scene manager 
 ```
 
 Such a system was very well put together. By having this type of object factory it allowed for levels and the such to be created simply from a file rather than being hardcoded. Hence all of the in game scenes could in essence be made in a matter of minutes. Whilst some form of routine would be needed to initialise every form of object which is a limitation, all that would be needed is an extra field and then it could be created dynamically at any time.
-
-
-
-<!-- TODO - Finish the blogpost talking about the game-->
