@@ -10,7 +10,7 @@ categories:
 - Developer Dairy
 - Networking Game
 img: network-thumb.jpg
-thumb:
+thumb: network.png
 published: true
 ---
 
