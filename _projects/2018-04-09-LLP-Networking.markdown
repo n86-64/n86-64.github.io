@@ -15,6 +15,13 @@ website: N/A
 published: true
 ---
 
+## Details
+- Platform - PC
+- Engine - ASGE
+- Programming Language - C++
+- Role - Gameplay and core system programmer
+- Objective - A networked turn based strategy game.
+
 Deadlock is the last of a series of games developed as part of my LLP assessment portfolio. This game was developed as part of the same team that made Sentire.
 
 ## About this Game

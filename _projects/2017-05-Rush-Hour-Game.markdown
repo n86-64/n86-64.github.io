@@ -13,7 +13,7 @@ carousel:
 - manicTraffic/img2.PNG
 - manicTraffic/img3.PNG
 - manicTraffic/img4.PNG
-tagged: Games, 2D, Puzzler, Cocos2DX
+tagged: Games, 2D, Puzzler, Cocos2DX, C++,
 client: University Project
 website:
 published: true
@@ -30,6 +30,12 @@ published: true
 <a class="github-button" href="https://github.com/n86-64/ESDAssignment3-ManicTraffic/" data-size="large" aria-label="Download DudleyHK/CyberGameCafe on GitHub">View Source on GitHub</a>
 </p>
 
+## Details
+- Platform - PC
+- Engine - Cocos2DX
+- Programming Language - C++
+- Role - Sole Developer
+- Objective - Create a video game version of rush hour.
 
 Manic Traffic was one of my first year university projects and is a basic clone of the classic puzzle game rush hour. Hence the aim of the game is to navigate the red car on a grid out of a maze of traffic. My version of the game is very much like the traditional rush hour game where the players main objective is to complete the puzzle in either the shortest amount of moves or the shortest amount of time.
 

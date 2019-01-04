@@ -4,7 +4,7 @@ title:  "Cyber Academy"
 date:   2017-10-17
 author: Nathan Butt et al.
 categories:
-- Team Project, 
+- Team Project,
 - Client Work
 img: ca_title.png
 thumb: ca_thumbs.png
@@ -30,6 +30,12 @@ published: true
 <a class="github-button" href="https://github.com/DudleyHK/CyberGameCafe/" data-size="large" aria-label="Download DudleyHK/CyberGameCafe on GitHub">View Source on GitHub</a>
 </p>
 
+## Details
+- Platform - PC
+- Engine - Unity
+- Programming Language - C#
+- Role - Gameplay systems programming
+- Objective - Create gameplay systems for quests in the game.
 
 <!--TODO Add various repositories and personal work as projects on the portfolio.-->
 

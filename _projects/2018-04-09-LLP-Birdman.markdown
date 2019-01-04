@@ -18,6 +18,14 @@ website: N/A
 published: true
 ---
 
+## Details
+- Platform - PC
+- Engine - ASGE
+- Programming Language - C++
+- Role - Gameplay and core system programmer
+- Objective - Create a game based on the film birdman.
+
+
 Sentire is the third of five games produced as part of my LLP assignment portfolio. I developed this game as part of a team made up of two other developers.
 
 ## About this Game

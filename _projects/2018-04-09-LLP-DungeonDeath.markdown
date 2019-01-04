@@ -19,6 +19,14 @@ website: N/A
 published: true
 ---
 
+## Details
+- Platform - PC
+- Engine - ASGE
+- Programming Language - C++
+- Role - Sole Developer
+- Objective - Create a text-based game set in a dungeon.
+
+
 Dungeon Death is a game that was created as part of the LLP assessment portfolio.
 
 ## About this Game

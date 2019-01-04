@@ -24,6 +24,13 @@ Dan's Mission of transmission is a simple 48hr game jam game developed as part o
 
 In the game the player is given access to both a keypad and a radio. The players goal is to enter the correct key combination in order to get into the safe and steal the valuables. Now this would be easy if it weren't for those meddling scientists and their cutting edge encryption technology, making it virtually impossible to hack into the safe. *Great*, so we can't get into the safe then? Well thankfully it turns out the safe belongs to one of the most well known (and dumbest) radio hosts. Using hints provided through the various radio transmissions, the players must act quickly to decipher the code and crack the safe.
 
+## Details
+- Platform - PC
+- Engine - Unity
+- Programming Language - C#
+- Role - Minigame and feature programmmer
+- Objective - Create a minigame and add features to the game.
+
 ## Background
 From the 26-28th of January 2018 the global game jam took place. The global game jam is an international competition where various individuals regardless of profession come together to try and make a game in 48 hrs. My university was one of many around the world that was hosting this event, and I along with two other individuals formed a team in order to participate.
 

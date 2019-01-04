@@ -18,6 +18,15 @@ website: N/A
 published: true
 ---
 
+## Details
+- Platform - PC
+- Engine - ASGE
+- Programming Language - C++
+- Role - Sole developer.
+- Objective - Create a basic snake game.
+
+
+
 Snake is the first of my 5 games that I created as part of my LLP project.
 
 ## About this Game

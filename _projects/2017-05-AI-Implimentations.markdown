@@ -4,17 +4,18 @@ title:  "AI Implimentations"
 date:   2016-12-01
 author: Nathan Butt
 categories:
-- University Projects,
+- University Projects
 - Year 1
+- AI Assignment
 img: path-thumb.png
 thumb:
 carousel:
 - ai/img1.PNG
 - ai/img2.PNG
 - ai/img3.PNG
-tagged: AI, Low-level Systems, Pathfinding, Search
+tagged: AI, Low-level Systems, Pathfinding, Search, C/C++
 client: University Project
-website:
+website: N/A
 published: true
 ---
 
@@ -42,6 +43,11 @@ published: true
 <a class="github-button" href="https://github.com/n86-64/IntroToAI-CourseworkTask3/" data-size="large" aria-label="Download DudleyHK/CyberGameCafe on GitHub">View Source on GitHub</a>
 </p>
 
+## Details
+- Platform - PC
+- Programming Language - C
+- Role - Sole Developer
+- Objective - Implement a range of AI pathfinding algorithms.
 
 One of the four modules that I was required to take in the first year was Introduction to AI. This module introduced various AI concepts such as Search algorithms, pathfinding and Machine Learning. As part of the module I implemented of a set of AI algorithms using some framework code provided by my lecturers as a starting point.
 
