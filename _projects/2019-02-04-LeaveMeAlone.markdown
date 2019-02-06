@@ -12,7 +12,7 @@ carousel:
 
 tagged: Games, Global Game Jam 2019, UWE Bristol
 client: University project
-website: N/A
+website: https://globalgamejam.org/2019/games/leave-me-alone
 published: true
 ---
 
@@ -21,7 +21,7 @@ published: true
 
 ### Get it Here:
 <p>
-<a class="github-button" href="https://globalgamejam.org/2019/games/leave-me-alone" data-icon="octicon-cloud-download" data-size="large" aria-label="Download Leave Me Alone on GitHub">Get It Here</a>
+<a class="github-button" href="https://github.com/n86-64/GGJ-2019/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download Leave Me Alone on GitHub">Get It Here</a>
 
 <a class="github-button" href="https://github.com/n86-64/GGJ-2019/" data-size="large" aria-label="Download Leave Me Alone on GitHub">View Source on GitHub</a>
 </p>
