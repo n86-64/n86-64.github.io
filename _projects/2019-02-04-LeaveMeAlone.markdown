@@ -14,7 +14,7 @@ carousel:
 - LMA/lma3.jpg
 - LMA/lma4.jpg
 tagged: Games, Global Game Jam 2019, UWE Bristol
-client: University project
+client: N/A
 website: https://globalgamejam.org/2019/games/leave-me-alone
 published: true
 ---
