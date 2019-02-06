@@ -9,6 +9,9 @@ categories:
 img: deadlock.jpg
 thumb: deadlock.jpg
 carousel:
+- DL/dl1.PNG
+- DL/dl2.PNG
+- DL/dj3.PNG
 tagged: Games, Low Level Programming
 client: University project
 website: N/A
