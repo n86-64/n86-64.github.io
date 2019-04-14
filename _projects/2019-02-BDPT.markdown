@@ -7,13 +7,12 @@ categories:
 - University Dissertation
 - Rendering
 - Computer Graphics
-img: path-thumb.png
-thumb:
+img: BDPTthumb.png
+thumb: BDPTthumb.png
 carousel:
 -BDPT/BDPT5S.PNG
 -BDPT/Path5S.PNG
 -BDPT/Paths50.PNG
-
 tagged: Rendering, Low-level Systems, Global Illumination, C/C++, Bi Directional Path-tracing
 client: University Project
 website: N/A
@@ -55,6 +54,8 @@ This rendering system is an implementation of this algorithm along with path and
 
 ## Features
 - Users can create and render scene files comprised of custom geometry.
+- Serialisable BVH using Surface Area Heuristic.
+- Multithreaded rendering.
 - Support for Lambertian Diffuse, Glass and Mirror materials with importance sampling.
 - Support for Bilinear filtered textures.
 - Support for Point and Area Lights.
