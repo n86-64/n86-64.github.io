@@ -1,0 +1,72 @@
+---
+layout: project
+title:  "T-racer - A Bi-Directional Path Tracing System"
+date:   2019-02-01
+author: Nathan Butt
+categories:
+- University Dissertation
+- Rendering
+- Computer Graphics
+img: path-thumb.png
+thumb:
+carousel:
+-BDPT/BDPT5S.PNG
+-BDPT/Path5S.PNG
+-BDPT/Paths50.PNG
+
+tagged: Rendering, Low-level Systems, Global Illumination, C/C++, Bi Directional Path-tracing
+client: University Project
+website: N/A
+published: true
+---
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+## Get it Here
+[Research Report](/assets/documents/BDPTReport.pdf)
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/n86-64/CTP-T-racer/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download n86-64/CTP-T-racer on GitHub">Download Here</a>
+
+<a class="github-button" href="https://github.com/n86-64/CTP-T-racer" data-size="large" aria-label="Download Leave Me Alone on GitHub">View Source on GitHub</a>
+</p>
+
+## Details
+- Platform - PC
+- Programming Language - C++
+- Role - Sole Developer
+- Objective - Create an implementation of Bi-Directional Path tracing.
+
+## Introduction
+For our final year of university we are required to complete a dissertation, focusing on a particular topic related to games technology. I decided to peruse mine in advanced rendering algorithms which has lead me to focus on creating a Bi-Directional Path Tracing renderer.
+
+
+## Description
+This is a renderer which implements the Bi-Directional Path Tracing algorithm, a rendering approached first proposed in the early 1990s by Eric Lafortune and is now available in many advanced renderers such as Renderman. This technique is classed as a global illumination technique due to its simulation of both direct and indirect light transport within a scene. The result of such an algorithm is that its capable of rendering very high quality images.
+
+BDPT is an extension of path-tracing, a Monte-Carlo raytracing algorithm which utilises Monte Carlo integration in order to determine the radiance of all surfaces in a scene, accounting for direct and indirect light. Path-tracing does this by taking an average of a sum of surface samples. These samples in turn are weighted using a probability density function that matches the properties of the surface, reducing the variance on the image.
+
+Whilst capable of amazing images, as the rays are traced from the camera it results in potential sources of variance, namely with caustic objects which results in the presence of noise, requiring more samples to reduce.
+
+BDPT differs by tracing from both the eye and the light source, in essence combining elements of light tracing with path-tracing. The result is a lower convergence rate as well as better simulation of caustics, resulting in images which very closely replicate the real environment.
+
+This rendering system is an implementation of this algorithm along with path and light tracing. In the system one of these three techniques can be selected allowing an image of the said scene to be produced.
+
+## Features
+- Users can create and render scene files comprised of custom geometry.
+- Support for Lambertian Diffuse, Glass and Mirror materials with importance sampling.
+- Support for Bilinear filtered textures.
+- Support for Point and Area Lights.
+
+## My thoughts
+I am quite satisfied with this project. I was able to implement the algorithm successfully but not perfectly. I hope to find time to make some important corrections in order to improve the quality of the images.
+
+## Long Term outlook
+In the long term I intend on adding the following features:
+- Multiple Importance Sampling
+- Additional Fresnel materials and new material generation system.
+- Directional and Spot lights.
+- Possible denoising via AI or mathematical methods.
+- Anti-aliasing and image effects.
+- Additional optimisations.
