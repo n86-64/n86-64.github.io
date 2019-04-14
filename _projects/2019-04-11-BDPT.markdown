@@ -13,7 +13,7 @@ carousel:
 -BDPT/BDPT5S.PNG
 -BDPT/Path5S.PNG
 -BDPT/Paths50.PNG
-tagged: Rendering, Low-level Systems, Global Illumination, C/C++, Bi Directional Path-tracing
+tagged: Rendering, Low-level Systems, Global Illumination, C/C++, Bi Directional PathTracing
 client: University Project
 website: N/A
 published: true
