@@ -11,8 +11,8 @@ img: BDPTthumb.png
 thumb: BDPTthumb.png
 carousel:
 - BDPT/BDPT5S.PNG
-- BDPT/Path5S.PNG
-- BDPT/Paths50.PNG
+- BDPT/PathS5.PNG
+- BDPT/BDPTs50.PNG
 tagged: Rendering, Low-level Systems, Global Illumination, C/C++, Bi Directional PathTracing
 client: University Project
 website: N/A
