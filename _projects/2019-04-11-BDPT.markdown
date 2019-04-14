@@ -29,7 +29,6 @@ published: true
 <a class="github-button" href="https://github.com/n86-64/CTP-T-racer/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download n86-64/CTP-T-racer on GitHub">Download Here</a>
 
 <a class="github-button" href="https://github.com/n86-64/CTP-T-racer" data-size="large" aria-label="Download Leave Me Alone on GitHub">View Source on GitHub</a>
-</p>
 
 ### Details
 - Platform - PC
