@@ -2,7 +2,7 @@
 layout: project
 title:  "Kachiku64 Level Editor"
 date: 2019-04-05
-author: Nathan Butt
+author: Nathan Butt et al
 categories:
 - University Project
 - Editors and Tools
@@ -21,10 +21,6 @@ published: true
 
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
-
-### Get it Here:
-<!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="" data-icon="octicon-cloud-download" data-size="large" aria-label="Download n86-64/CTP-T-racer on GitHub">Download Here</a>
 
 ### Details
 - Platform - PC
