@@ -4,12 +4,18 @@ title:  "Kachiku64 PS4 Port"
 date: 2019-04-05
 author: Nathan Butt et al
 categories:
-- University Project 
+- University Project
 - Games
 - Ports
 img: k64thumb.png
 thumb: k64thumb.png
 carousel:
+- K64/img1.PNG
+- K64/img2.PNG
+- K64/img3.PNG
+- K64/img4.PNG
+- K64/img5.PNG
+- K64/img6.PNG
 tagged: Games Technology, Games, Group Project
 client: University Project
 website: N/A
