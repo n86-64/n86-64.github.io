@@ -4,8 +4,9 @@ title:  "Kachiku64 PS4 Port"
 date: 2019-04-05
 author: Nathan Butt et al
 categories:
-- University Project
-- Editors and Tools
+- University Project 
+- Games
+- Ports
 img: k64thumb.png
 thumb: k64thumb.png
 carousel:
@@ -43,6 +44,9 @@ Players connect using their mobile devices where they then control there charact
 ## Port Details
 The ported version to the PS4 was successful in maintaining parity with the PC experience. It also works seamlessly with the PS4 controllers requiring little to no adjustment. Players are able to connect and play using there PS4 controllers. Allowing for up to 4 controllers.
 
-Whilst a fairly respectable fort given the limited time a selection of optimisations are needed and several bug fixes in order to make the game acceptable for full release. There is also no support for mobile controllers, however this could be addressed with the playlink system.
+Whilst a fairly respectable port given the limited time, a selection of optimisations are needed and several bug fixes in order to make the game acceptable for full release. There is also no support for mobile controllers, however this could be addressed with the possibility of using the playlink system on PS4.
 
 Creating the port required some minor adjustments to the shading pipeline in order to be fully functional.
+
+## Additional Information
+Information about this port can be found from PlayWest.
