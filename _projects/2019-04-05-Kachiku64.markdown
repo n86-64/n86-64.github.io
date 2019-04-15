@@ -1,0 +1,48 @@
+---
+layout: project
+title:  "Kachiku64 PS4 Port"
+date: 2019-04-05
+author: Nathan Butt et al
+categories:
+- University Project
+- Editors and Tools
+img: k64thumb.png
+thumb: k64thumb.png
+carousel:
+tagged: Games Technology, Games, Group Project
+client: University Project
+website: N/A
+published: true
+---
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+### Details
+- Platform - PS4
+- Engine - Unity
+- Programming Language - C#
+- Role - Port core game to PS4
+- Objective - Create level editing tools for use by the year.
+
+### Introduction
+As part of our Commercial Games Development module our cohort was tasked with continuing development of a Playwest title called Kachiku64.
+Whilst I was not assigned to any core features, in addition to my level editing role, out of a personal desire I ported this game to the PS4 utilising the development tools provided by our university to get it working.
+
+### Description
+Kachiku64 is a 64 local mass multiplayer game. Players are put into an arena and have to try with the winner bing the last player standing. Each player has a collection of bombs and has to use there wits in order to take out their rivals, with the winner being the person who scores the most points.
+
+The game contains a variety of game modes:
+- Harvest (A tron style game mode involving combine harvesters)
+- BOBdrop (Simple last man standing where players have to use bombs to take out their rivals)
+- Tractors (Players are given tractors and must get laps around a track in order to get more bombs)
+- Spheres of Dreams (A mixture of the three previous modes)
+
+Players connect using their mobile devices where they then control there characters on screen.
+
+## Port Details
+The ported version to the PS4 was successful in maintaining parity with the PC experience. It also works seamlessly with the PS4 controllers requiring little to no adjustment. Players are able to connect and play using there PS4 controllers. Allowing for up to 4 controllers.
+
+Whilst a fairly respectable fort given the limited time a selection of optimisations are needed and several bug fixes in order to make the game acceptable for full release. There is also no support for mobile controllers, however this could be addressed with the playlink system.
+
+Creating the port required some minor adjustments to the shading pipeline in order to be fully functional.
