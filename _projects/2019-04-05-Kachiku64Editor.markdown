@@ -45,7 +45,7 @@ The editor comes with a full suite of editing tools:
 
 Additional helper tools such as Undo, Redo, layer view and layer selection are included as standard.
 
-The user is able to test the levels in the game directly via a level streaming system which allows levels to be opened in the main game when needed. The editor is fully configurable via a settings manager and includes an autosave recovery feature to prevent level progress being lost as well as a notification system to tell users when
+The user is able to test the levels in the game directly via a level streaming system which allows levels to be opened in the main game when needed. The editor is fully configurable via a settings manager and includes an autosave recovery feature to prevent level progress being lost as well as a notification system to tell users when events in the editor occur.
 
 ### Role
 I implemented several of the level editors new features:
