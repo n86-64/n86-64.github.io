@@ -16,7 +16,6 @@ carousel:
 - K64/img4.PNG
 - K64/img5.PNG
 - K64/img6.PNG
-- https://www.youtube.com/embed/vjSmuq2sIJg
 tagged: Games Technology, Games, Group Project
 client: University Project
 website: N/A
@@ -26,7 +25,7 @@ published: true
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/vjSmuq2sIJg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="848" height="480" src="https://www.youtube.com/embed/vjSmuq2sIJg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### Details
