@@ -263,6 +263,7 @@ a:focus {
 
 #myVideo {
   position: absolute;
+	opacity: 0.5;
   right: 0;
   bottom: 0;
   min-width: 100%;
