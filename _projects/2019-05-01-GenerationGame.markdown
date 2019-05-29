@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "The Generation Game - Deep Learning Game Generation."
-date: 2019-04-11
+date: 2019-05-01
 author: Nathan Butt
 categories:
 - Machine Learning
