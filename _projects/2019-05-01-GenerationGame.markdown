@@ -14,7 +14,7 @@ carousel:
 tagged: AI, Convolutional Neural Networks, Machine Learning, C#, Unity
 client: University Project
 website: N/A
-published: true
+published: false
 ---
 
 <!-- Place this tag in your head or just before your close body tag. -->
