@@ -24,6 +24,7 @@ published: true
 
 ### Get it Here:
 <a href="/assets/documents/BDPTReport.pdf">Research Report</a>
+
 <a href="/assets/documents/BDPTReportFinal.pdf">Final Report</a>
 
 <!-- Place this tag where you want the button to render. -->
