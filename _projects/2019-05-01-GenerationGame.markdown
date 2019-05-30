@@ -4,17 +4,17 @@ title:  "The Generation Game - Deep Learning Game Generation."
 date: 2019-05-01
 author: Nathan Butt
 categories:
-- Machine Learning
-- Tensorflow
-- Unity
+- Machine Learning,
+- Tensorflow,
+- Unity,
 - Game Dev
 img: tgg_thumb.png
 thumb: tgg_thumb.png
 carousel:
-- tgg/c5.png
+- tgg/c4.png
 - tgg/c2.png
 - tgg/c3.png
-- tgg/c4.png
+- tgg/c5.png
 - tgg/c1.png
 tagged: AI, Convolutional Neural Networks, Machine Learning, C#, Unity
 client: University Project
