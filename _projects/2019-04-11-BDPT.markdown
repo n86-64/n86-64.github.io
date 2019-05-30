@@ -24,6 +24,7 @@ published: true
 
 ### Get it Here:
 <a href="/assets/documents/BDPTReport.pdf">Research Report</a>
+<a href="/assets/documents/BDPTReportFinal.pdf">Final Report</a>
 
 <!-- Place this tag where you want the button to render. -->
 <a class="github-button" href="https://github.com/n86-64/CTP-T-racer/archive/master.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Download n86-64/CTP-T-racer on GitHub">Download Here</a>
