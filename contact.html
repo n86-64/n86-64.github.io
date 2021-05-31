@@ -6,9 +6,9 @@ permalink: /contact/
 <div class="container mtb">
     <div class="row">
         <div class="col-lg-8">
-            <h4>Feel free to contact me.</h4>
+            <h4>Any Queries?</h4>
             <div class="hline"></div>
-                <p>Intrested in anything you see here or have some enquiry. Contact me here.</p>
+                <p>Feel free to message me below using the form provided:</p>
                 <form role="form">
                   <div class="form-group">
                     <label for="InputName1">Your Name</label>
@@ -31,15 +31,21 @@ permalink: /contact/
         </div><! --/col-lg-8 -->
 
         <div class="col-lg-4">
-            <h4>My Address</h4>
+            <h4>How else can I get in touch?</h4>
             <div class="hline"></div>
                 <p>
-                    {% for line in site.address.first.lines %}
-                        {{ line }} <br>
-                    {% endfor %}
-                </p>
-                <p>
-                    Email: {{ site.email }}<br/>
+                 If you wish to talk to me directly, I can also be reached through LinkedIn and GitHub. 
+                  Links for which are provided below: <br/>
+                  {% for network in site.social %}
+                    {% if network.title != "envelope" %}
+                      <a href="{{ network.url }}" class="contact-links">
+                        {{ network.title }}
+                        <i class="fa fa-{{ network.title }}" aria-hidden="true"></i>
+                        <span class="sr-only">{{network.title}}</span>
+                        &nbsp;&nbsp;
+                      </a>
+                    {% endif %}
+              {% endfor %}
                 </p>
         </div>
     </div><! --/row -->

@@ -4,9 +4,11 @@ title: Home
 permalink: /
 ---
 
+{% include portfolio.html title="" limit=10 %}
+
 <div class="container mtb">
-    <div class="row">
-         <div class="col-lg-8 col-lg-offset-2">
+    <!--div class="row">-->
+         <!--<div class="col-lg-8 col-lg-offset-2">
             <h4>Latest Posts</h4>
             <div class="hline"></div>
             {% for post in site.posts limit:5 %}
@@ -15,8 +17,7 @@ permalink: /
             {% endif %}
             {% endfor %}
              <div class="hline"></div>
-        </div>
-    </div><! --/row -->
-</div><! --/container -->
+        </div>-->
 
-{% include portfolio.html title="LATEST WORKS" limit=10 %}
+    <!--</div>--><! --/row -->
+</div><! --/container -->

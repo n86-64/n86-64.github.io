@@ -2,7 +2,7 @@
 
 # Site settings
 title: Nathan Butt
-description: "A place known for code and games."
+description: "A lone programmers humble portfolio."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: "https://n86-64.github.io/"
@@ -40,10 +40,8 @@ collections:
 social:
   - title: github
     url: https://github.com/n86-64
-  - title: facebook
-    url: https://www.facebook.com/nathanbutt2298
   - title: linkedin
-    url: https://www.linkedin.com/in/nathan-butt-7a44a9151/
+    url: https://www.linkedin.com/in/nathan-butt/
   - title: envelope #use for email address
     url: mailto:Nathan2.Butt@live.uwe.ac.uk
 
@@ -54,8 +52,6 @@ address:
     - Bristol, BS16 1QY,
     - United Kingdom.
 email: Nathan2.Butt@live.uwe.ac.uk
-
-
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
 
@@ -70,7 +66,7 @@ members:
         url: mailto:Nathan2.Butt@live.uwe.ac.uk
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "A keen programmer with a desire to learn and innovate."
+about: "A humble software engineer with a keen desire to learn and explore."
 
 # Paginate splits blog listings into multiple pages.
 paginate: 5
